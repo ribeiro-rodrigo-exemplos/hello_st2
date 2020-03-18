@@ -1,0 +1,25 @@
+# Referência do pacote. Só pode conter letras, dígitos e sublinhados
+ref: hello_st2
+# Nome do pacote fácil de usar. Se este atributo contiver espaços ou outros caracteres especiais,
+# o atributo "ref" também deve ser especificado (veja acima).
+name: Hello StackStorm
+# Descrição do pacote fácil de usar.
+description: Simple pack containing examples of sensor, rule and actions
+# Palavras-chave usadas na procura de pacotes.
+keywords:
+  - example
+  - test
+# Versão do pacote que deve seguir o formato semver (<major>. <minor>. <patch> por exemplo, 1.0.0)
+version: 3.1.0
+# Uma lista dos principais pacotes de versões do Python é testada e trabalha com ela.
+python_versions:
+  - "2"
+  - "3"
+# Nome do autor
+author: StackStorm, Inc.
+# Email do autor
+email: info@stackstorm.com
+# Lista opcional de colaboradores adicionais para o pacote
+contribuitors:
+  - "John Doe1 <john.doe1@gmail.com>"
+  - "John Doe2 <john.doe2@gmail.com>"
