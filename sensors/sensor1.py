@@ -6,7 +6,7 @@ class HelloSensor(Sensor):
     def __init__(self, sensor_service, config):
         super(HelloSensor, self).__init__(
             sensor_service=sensor_service, config=config)
-        self.__logger = self.sensor_service.get_logger(
+        self._logger = self.sensor_service.get_logger(
             name=self.__class__.__name__)
 
         self._stop = False
