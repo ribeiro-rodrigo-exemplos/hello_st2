@@ -15,6 +15,10 @@ version: 3.1.0
 python_versions:
   - "2"
   - "3"
+
+dependencies:
+  - core
+
 # Nome do autor
 author: StackStorm, Inc.
 # Email do autor

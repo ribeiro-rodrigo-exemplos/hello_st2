@@ -23,7 +23,7 @@ class HelloSensor(Sensor):
             eventlet.sleep(60)
 
     def cleanup(self):
-        pass
+        self._stop = True
 
     def add_trigger(self, trigger):
         pass
