@@ -9,6 +9,8 @@ class HelloSensor(Sensor):
         self.__logger = self.sensor_service.get_logger(
             name=self.__class__.__name__)
 
+        self._stop = False
+
     def setup(self):
         pass
 
